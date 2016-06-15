@@ -1,4 +1,19 @@
 Rails.application.routes.draw do
+  
+
+  root 'pages#batman_vs_superman'
+
+  get 'pages/batman'
+
+  get 'pages/superman'
+
+
+  get 'experiments/page1'
+
+  get 'experiments/page2'
+
+  get 'experiments/page3'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

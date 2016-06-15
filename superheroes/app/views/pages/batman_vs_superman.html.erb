@@ -1,0 +1,21 @@
+<div class="d1">
+
+	<p><%= link_to 'Batman', pages_batman_path %></p><br><br>
+	<p>Inscríbete</p>
+	<form action="/pages/create" method='POST'>
+	Heroe:<input type="text" name="heroe"><br>
+	Email:<input type="text" name="email"><br>
+	
+	<input type="hidden" name="authenticity_token", value="<%= form_authenticity_token %>">
+	<input type="submit" value="guardar">
+
+</form>
+<!-- 	<h1>Batman</h1>
+ --></div><!--fin d1-->
+
+
+<div class="d2">
+
+	<p><%= link_to 'Superman', pages_superman_path%></p>
+<!-- 	<h1>Superman</h1>
+ --></div><!--fin d1-->
